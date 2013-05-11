@@ -5,7 +5,9 @@
 #include <setupconnectiondialog.h>
 #include <aboutdialog.h>
 #include <QLabel>
-
+#include <QComboBox>
+#include <QCheckBox>
+#include "qcustomplot.h"
 namespace Ui {
 class MainWindow;
 }
@@ -23,10 +25,13 @@ private:
     Ui::MainWindow *ui;
     setupConnectionDialog *pSetupConnectionDialog;
     aboutDialog *pAboutDialog;
+    QCheckBox *pEditCheckBox;
+    QAction *newAction;
 
 public slots:
     void setupConnection();
     void about();
+    void hideInputSig();
 
 };
 

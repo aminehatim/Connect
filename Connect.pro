@@ -16,11 +16,13 @@ TEMPLATE = app
 SOURCES += main.cpp\
            mainwindow.cpp \
            setupconnectiondialog.cpp \
-           aboutdialog.cpp
+           aboutdialog.cpp \
+    qcustomplot.cpp
 
 HEADERS  += mainwindow.h \
             setupconnectiondialog.h \
-            aboutdialog.h
+            aboutdialog.h \
+    qcustomplot.h
 
 FORMS    += mainwindow.ui \
             setupconnectiondialog.ui \
