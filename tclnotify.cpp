@@ -20,6 +20,7 @@
 #include <qapplication.h>
 #include <qsocketnotifier.h>
 #include <qtimer.h>
+#include "tcl.h"
 
 /*
  * The following structure is what is added to the Tcl event queue when

@@ -17,13 +17,20 @@ SOURCES += main.cpp\
            mainwindow.cpp \
            setupconnectiondialog.cpp \
            aboutdialog.cpp \
-    qcustomplot.cpp
+    qcustomplot.cpp \
+    plotbox.cpp \
+    graphicsettingsdialog.cpp
 
 HEADERS  += mainwindow.h \
             setupconnectiondialog.h \
             aboutdialog.h \
-    qcustomplot.h
+    qcustomplot.h \
+    plotbox.h \
+    graphicsettingsdialog.h
 
 FORMS    += mainwindow.ui \
             setupconnectiondialog.ui \
-            aboutdialog.ui
+            aboutdialog.ui \
+    plotbox.ui \
+    graphicsettingsdialog.ui
+

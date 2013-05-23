@@ -15,7 +15,7 @@
  *                                                                         *
  ***************************************************************************/
 
-#include "../include/commandsManager.h"
+#include "commandsManager.h"
 
 commandsManager *commandsManager::theInstance = NULL;
 

@@ -15,7 +15,7 @@ email                : houssem@localhost
  *                                                                         *
  ***************************************************************************/
 
-#include "../include/commands.h"
+#include "commands.h"
 #include <qstringlist.h>
 #include <qmessagebox.h>
 

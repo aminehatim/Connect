@@ -7,7 +7,9 @@
 #include <QLabel>
 #include <QComboBox>
 #include <QCheckBox>
+#include <QMdiArea>
 #include "qcustomplot.h"
+#include "plotbox.h"
 namespace Ui {
 class MainWindow;
 }
@@ -25,13 +27,19 @@ private:
     Ui::MainWindow *ui;
     setupConnectionDialog *pSetupConnectionDialog;
     aboutDialog *pAboutDialog;
-    QCheckBox *pEditCheckBox;
-    QAction *newAction;
+    QAction *pInputAction;
+    QAction *pTclConsole;
+    //plotBox *pInputPlotBox;
+    QMdiArea *mdiArea;
+
+
 
 public slots:
     void setupConnection();
     void about();
-    void hideInputSig();
+    void AddNewPlotBox();
+    void resizeInputSigPlot(QSize newSize);
+    void updateMdiArea();
 
 };
 

@@ -43,6 +43,7 @@
 #include <QStack>
 #include <qmath.h>
 #include <limits>
+#include <QPoint>
 
 // decl definitions for shared library compilation/usage:
 #if defined(QCUSTOMPLOT_COMPILE_LIBRARY)
@@ -1919,6 +1920,7 @@ class QCP_LIB_DECL QCustomPlot : public QWidget
   Q_PROPERTY(Qt::Orientations rangeZoom READ rangeZoom WRITE setRangeZoom)
   /// \endcond
 public:
+    QPoint position;
   /*!
     Defines the mouse interactions possible with QCustomPlot
     
